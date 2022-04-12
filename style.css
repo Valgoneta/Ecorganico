@@ -62,8 +62,9 @@ p {
 
 .productos-in {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -75,8 +76,9 @@ p {
 
 .productos-indiatomid {
     padding: 7% 2% 2% 2%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .nombre {
     color: black;
@@ -90,6 +92,7 @@ p {
 .prod {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
