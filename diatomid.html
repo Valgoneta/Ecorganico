@@ -24,21 +24,61 @@
                 <h1>Diatomid</h1>
 
                 <div class="menu">
-                    <nav>
-                        <a href="index.html">Inicio    |</a>
-                        <a href="#prdiatomid">    Productos    |</a>
-                    <!--Desplegable de Productos-->
-                        <a href="#historia">      Nuestra historia</a>
+                    <nav class="nav">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <div class="container-fluid">
+                              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Productos
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <li><a class="dropdown-item" href="#insecticida">Insecticida</a></li>
+                                      <li><a class="dropdown-item" href="#fertilizante">Fertilizante</a></li>
+                                      <li><a class="dropdown-item" href="#absorbente">Absorbente</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#historia">Historia</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#contacto">Contacto</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                        </nav>
                     </nav>
                 </div>
             </div>
         </header>
 
 
-        <!--Imagenes en carrousel de Diatomid, mientras tanto pongo la de inicio-->
-        <div class="imgcarr">
-            <img src="Imagenes/campo.inicio.jpg" alt="" width="100%">
-        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Imagenes/campo.inicio.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Imagenes/campo.2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Imagenes/campo.3..jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
 
         <section id="prdiatomid">
@@ -46,20 +86,20 @@
                 <div class="productos-indiatomid">
                     <div class="prod">
                         <a href="#insecticida">
-                            <img src="Imagenes/diatomid.jpg" alt="" width="200px" class="img imglink">
+                            <img src="Imagenes/diatomid.jpg" alt="" width="250px" class="img imglink">
                             <p class="nombre">Insecticida</p>
                         </a>
                     </div>
 
                     <div class="prod">
                         <a href="#fertilizante">
-                            <img src="Imagenes/diatomid.jpg" alt="" width="200px" class="img imglink">
+                            <img src="Imagenes/diatomid.jpg" alt="" width="250px" class="img imglink">
                                 <p class="nombre">Fertilizante</p>
                         </a>
                     </div>
                     <div class="prod">
                         <a href="#absorbente">
-                            <img src="Imagenes/diatomid.jpg" alt="" width="200px" class="img imglink">
+                            <img src="Imagenes/diatomid.jpg" alt="" width="250px" class="img imglink">
                                 <p class="nombre">Absorbente Industrial</p>   
                         </a>
                     </div>
@@ -144,7 +184,7 @@
     
         <footer class="footer-container">
             <div class="footer">
-                <div class="contactos">
+                <div id="contacto">
                     <ul>
                         <li>
                             <a href="https://Instagram.com">Instagram</a>
