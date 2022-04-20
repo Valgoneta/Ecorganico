@@ -1,0 +1,29 @@
+.carousel{
+    z-index: -1;
+}
+
+.img{
+    border-radius: 20px;
+    border: 15px solid rgb(119, 190, 131);
+    margin: 10px 40px;
+
+}
+
+.imglink:hover {
+    transition: all 1s;
+    transform: scale(1.1);
+}
+
+.imgpr-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px;
+
+    .imgpr {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: imgpr;
+     }
+}
