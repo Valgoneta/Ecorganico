@@ -1,0 +1,15 @@
+.footer-container {
+    color: white;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-family: Roboto;
+
+    .footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        grid-area: footer;
+    }
+}
