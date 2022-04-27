@@ -1,3 +1,8 @@
+@mixin flexbox ($display, $jc) {
+    display: $display;
+    justify-content: $jc;
+}
+
 .carousel{
     z-index: -1;
 }
@@ -15,14 +20,12 @@
 }
 
 .imgpr-container {
-    display: flex;
-    justify-content: center;
+    @include flexbox(flex, center);
     padding: 20px 5px;
 
     .imgpr {
         width: 80%;
-        display: flex;
-        justify-content: space-around;
+        @include flexbox(flex, space-around);
         flex-wrap: wrap;
         grid-area: imgpr;
      }

@@ -33,10 +33,10 @@
 .footer-container {
   color: white;
   background-color: rgb(48, 48, 48);
-  display: flex;
-  justify-content: center;
   padding: 2%;
   font-family: Roboto;
+  display: flex;
+  justify-content: center;
 }
 .footer-container .footer {
   width: 100%;
@@ -83,8 +83,8 @@
 .productos-in {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .prod {
@@ -109,8 +109,8 @@
 .productos-indiatomid {
   padding: 7% 2% 2% 2%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .productosnutrigea {
@@ -121,8 +121,8 @@
 .productos-innutrigea {
   padding: 7% 9% 2% 9%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #Nosotros {

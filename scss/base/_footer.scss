@@ -1,15 +1,18 @@
+@mixin flexbox ($display, $jc) {
+    display: $display;
+    justify-content: $jc;
+}
+
 .footer-container {
     color: white;
     background-color: rgb(48, 48, 48);
-    display: flex;
-    justify-content: center;
     padding: 2%;
     font-family: Roboto;
-
+    @include flexbox(flex, center);
+    
     .footer {
         width: 100%;
-        display: flex;
-        justify-content: space-between;
+        @include flexbox(flex, space-between);
         grid-area: footer;
     }
 }

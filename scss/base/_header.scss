@@ -1,7 +1,11 @@
+@mixin flexbox ($display, $jc) {
+    display: $display;
+    justify-content: $jc;
+}
+
 .header-container {
     background-color: rgb(178, 231, 187);
-    display: flex;
-    justify-content: center;
+    @include flexbox(flex, center);
     position: sticky;
     top: 0;
     padding: 20px 0;
@@ -9,8 +13,7 @@
 
     .header {
         width: 95%;
-        display: flex;
-        justify-content: space-between;
+        @include flexbox(flex, space-between);
         align-items: center;
 
         .navbar {
