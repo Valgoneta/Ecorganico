@@ -155,6 +155,10 @@ p {
   font-family: Roboto;
   padding: 20px;
   font-size: 18px;
+}
+
+li {
+  font-family: Roboto;
   font-weight: bold;
 }
 
