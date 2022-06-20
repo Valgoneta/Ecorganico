@@ -202,4 +202,10 @@ li {
   padding: 4% 2% 2% 2%;
 }
 
+@media (max-width: 500px) {
+  .logo {
+    width: 2%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
