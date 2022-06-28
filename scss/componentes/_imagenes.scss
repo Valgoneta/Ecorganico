@@ -11,7 +11,6 @@
     border-radius: 20px;
     border: 15px solid rgb(119, 190, 131);
     margin: 10px 40px;
-
 }
 
 .imglink:hover {
@@ -27,6 +26,14 @@
         width: 80%;
         @include flexbox(flex, space-around);
         flex-wrap: wrap;
-        grid-area: imgpr;
      }
+}
+
+.btncarrito {
+    @include flexbox(flex, center);
+    padding: 10px 0px;
+    color: white;
+    background-color: rgb(119, 190, 131);
+    border-radius: 5px;
+    margin: 0px 40px;
 }
