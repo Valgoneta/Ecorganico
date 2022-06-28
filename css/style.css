@@ -70,7 +70,16 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  grid-area: imgpr;
+}
+
+.btncarrito {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  color: white;
+  background-color: rgb(119, 190, 131);
+  border-radius: 5px;
+  margin: 0px 40px;
 }
 
 .productos {
@@ -200,12 +209,6 @@ li {
 
 #activesoil {
   padding: 4% 2% 2% 2%;
-}
-
-@media (max-width: 500px) {
-  .logo {
-    width: 2%;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
